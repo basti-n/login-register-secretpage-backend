@@ -1,0 +1,36 @@
+{
+  "name": "umwerk-assignment-express",
+  "version": "1.0.0",
+  "description": "REST Api for Umwerk Test Assignment",
+  "main": "server.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --experimental-modules server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/basti-n/login-register-secretpage-backend.git"
+  },
+  "keywords": [
+    "REST",
+    "Express",
+    "Node"
+  ],
+  "author": "Sebastian Neumair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/basti-n/login-register-secretpage-backend/issues"
+  },
+  "homepage": "https://github.com/basti-n/login-register-secretpage-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }, 
+  "engines": {
+    "node": "v12.5.0"
+  }
+}
