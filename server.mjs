@@ -4,7 +4,7 @@ import cors from 'cors'
 import { JokeService } from './jokes-service.mjs';
 
 const app = express();
-const port = process.env.port || 8000;
+const port = process.env.PORT || 8080;
 
 const corsOptions = {
     credentials: true,
